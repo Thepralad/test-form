@@ -3,3 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: 100fr 190fr;
+}
+
+.left{
+    background-image: url(img.jpg);
+    background-size: 490px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left p{
+    padding-left: 140px;
+    margin-bottom: 200px;
+    font-size: 2rem;
+    color: rgb(234, 237, 213);
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: rgba(240, 248, 255, 0.258);
+}
